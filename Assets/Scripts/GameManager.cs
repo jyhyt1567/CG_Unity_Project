@@ -55,7 +55,10 @@ public class GameManager : MonoBehaviour
         if (PlayerPrefs.HasKey("MaxScore"))
             PlayerPrefs.SetInt("MaxScore", 0);
     }
-
+    public void Practice()
+    {
+        SceneManager.LoadScene("Practice");
+    }
     public void GameStart() 
     {
         menuCam.SetActive(false); 
