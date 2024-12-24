@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class Shop : MonoBehaviour
 {
     public RectTransform uiGroup;
-    public Animator anim;
+    //public Animator anim;
 
     public GameObject[] itemObj;
     public int[] itemPrice;
@@ -23,8 +23,9 @@ public class Shop : MonoBehaviour
 
     public void Exit()
     {
-        anim.SetTrigger("doHello");
-        uiGroup.anchoredPosition = Vector3.down * 1000;
+        //anim.SetTrigger("doHello");
+        Debug.Log("sdsa");
+        uiGroup.anchoredPosition = Vector3.down * 2000;
     }
 
     public void Buy(int index) 

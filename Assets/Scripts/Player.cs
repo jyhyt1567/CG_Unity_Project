@@ -260,6 +260,7 @@ public class Player : MonoBehaviour
             else if (nearObject.tag == "Shop")
             {
                 Shop shop = nearObject.GetComponent<Shop>();
+                Debug.Log("asd");
                 shop.Enter(this); 
                 isShop = true; 
             }

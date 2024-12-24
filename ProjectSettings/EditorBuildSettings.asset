@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Practice.unity
     guid: 584f6babe63948d43a5c68ed1b629eb7
+  - enabled: 1
+    path: Assets/Scenes/Map_Dungeon.unity
+    guid: c27f5df66f2fc8e498dc4c5a35682072
+  - enabled: 1
+    path: Assets/Scenes/Map_Shop.unity
+    guid: db0ab7565e5a95a4ab54ac1ebaaa3256
   m_configObjects: {}

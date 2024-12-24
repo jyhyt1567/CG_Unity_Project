@@ -59,6 +59,16 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("Practice");
     }
+
+    public void TermProject()
+    {
+        SceneManager.LoadScene("Map_Shop");
+    }
+
+    public void TermProject_Dungeon_start()
+    {
+        SceneManager.LoadScene("Map_Dungeon");
+    }
     public void GameStart() 
     {
         menuCam.SetActive(false); 
